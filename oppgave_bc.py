@@ -40,10 +40,6 @@ if __name__ == "__main__":
                 print(question)
                 print(question.check_answer(int(input("What is the answer?"))))
                 print("\n")
-            # print(question_1)
-            # print(question_1.check_answer(int(input("What is the answer?"))))
-            # print(question_2)
-            # print(question_2.check_answer(int(input("What is the answer?"))))
             cont = False
         except ValueError:
             print("Answer with one of the numbers listed")
