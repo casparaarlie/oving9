@@ -2,7 +2,7 @@
 """
 Created on Tue Oct 12 08:41:35 2021
 
-@author: stian
+@author: casparaarlie
 """
 
 
@@ -15,10 +15,8 @@ class GuessingGame:
 
     def __str__(self):
         print(self.question)
-        counter = 0
         for i in range(len(self.answers)):
-            counter += 1
-            print(f"{counter}. {self.answers[i]}")
+            print(f"{i+1}. {self.answers[i]}")
         return " "
 
     def check_answer(self, number):
